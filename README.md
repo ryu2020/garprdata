@@ -1,5 +1,5 @@
 # garprdata
-Minor edits to benSG's garprdata script with added functions:
+Minor edits to Ben SG's garprdata script with added functions:
 * dedicated text files containing players
 * the ability to exclude tournaments
 * more accessibility to change the region
