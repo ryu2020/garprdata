@@ -1,14 +1,9 @@
-# garprdata
-Python scripts to return data from GARPR
-
-To use just add a Player with their player id (taken from their player page url on GARPR) and their name, then add player to the list
-
-Can output to text file, console, or CSV file (to copy and paste into main spreadsheet)
-
-Formatted output table (updated regularly): https://docs.google.com/spreadsheets/d/1d3qmUSPFEdauElAUGbWYROaHubX8Du3aEugNzbmrQjo/edit?usp=sharing
-
-Full New England GARPR dataset: https://www.notgarpr.com/#/newengland/rankings
-  * dataset uses MongoDB backend to allow the program to pull matchup data in json format
-  
-GARPR source code: https://github.com/ripgarpr/garpr
-
+#garprdata
+Minor edits to benSG's garprdata script with added functions:
+*dedicated text files containing players
+*the ability to exclude tournaments
+*more accessibility to change the region
+##usage
+*fill in ignore.txt and players.txt, both are fairly self-explanatory
+*at the top of the garpr.py script, set the region and ranking window as needed
+*run garpr.py
